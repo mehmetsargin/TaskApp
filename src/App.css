@@ -1,0 +1,80 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-create {
+  width: 20em;
+}
+.task-update {
+  width: 100%;
+}
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+.task-label {
+  margin: 0.2em 0;
+}
+.task-input {
+  margin: 2% 0%;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 30px;
+}
+.task-textarea {
+  margin: 2% 0%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.task-button {
+  border: 1px solid green;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+.update-button {
+  background-color: blueviolet;
+}
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.task-show {
+  border: 1px solid green;
+  border-radius: 30px;
+  width: 20%;
+  min-width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.task-title {
+  margin-bottom: 5px;
+}
+.task-edit {
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  margin-right: 10px;
+}
+.task-delete {
+  padding: 5px;
+  font-size: 15px;
+  width: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-right: 10px;
+}
